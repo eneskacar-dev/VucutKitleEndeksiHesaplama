@@ -13,7 +13,7 @@ public class Main {
 
         // Vücut kitle endeksi (BMI) hesaplama formülü.
         double vucutKitleEndeksi = kilo / (boy * boy) ;
-        System.out.print("Vücut Kitle Endeksiniz (BMI) :  "+ vucutKitleEndeksi);
+        System.out.println("Vücut Kitle Endeksiniz (BMI) :  "+ vucutKitleEndeksi);
 
     // Vücut Kitle Endeksi durumunu belirtme.
 
@@ -24,7 +24,7 @@ public class Main {
                  "Obez";
 
 
-                System.out.println("Durum : " + durum ) ;
+                System.out.println("Durum : " + durum ); ;
 
 
     }
